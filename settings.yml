@@ -1,4 +1,6 @@
-box_background: true
+box_background: 
+  default: true
   description: 'place text in box'
-title_string: 'this is bold and this is not'
+title_string: 
+  default: 'this is bold and this is not'
   description: 'test for markdown'
