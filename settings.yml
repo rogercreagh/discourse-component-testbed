@@ -1,6 +1,6 @@
 box_background: 
   default: true
-  description: 'place text in box'
+  description: "place text in box"
 title_string: 
-  default: 'this is bold and this is not'
-  description: 'test for markdown'
+  default: "this is bold and this is not"
+  description: "test for markdown"
