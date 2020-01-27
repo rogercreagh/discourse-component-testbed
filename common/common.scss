@@ -1,4 +1,10 @@
-.groups-page-info {
-	margin-bottom:20px;
-	background:#c0c0ff;
+@if $box-background {
+	.groups-page-info {
+		margin-bottom:20px;
+		padding: 0 20px 10px 20px;
+		background:#e0ffff;
+		border: solid 1px #bbb;
+		border-radius:5px;
+	}
 }
+
