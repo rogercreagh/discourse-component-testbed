@@ -1,4 +1,6 @@
-@if $box-background {
+$box_background:true;
+
+@if $box_background {
 	.groups-page-info {
 		margin-bottom:20px;
 		padding: 0 20px 10px 20px;
