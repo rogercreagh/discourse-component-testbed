@@ -22,21 +22,16 @@
     </div>
   </div>
     <div class="groups-page-info">
-    <p>Forum Groups (aka Security Groups) listed on this page each grant access to one or more forums.
-    </p>
+    <p>{{themeSettings.about_groups_text}}</p>
     <details>
     <summary>click for more details</summary>
-    <p style="margin-left:20px;">This page shows all of the forum groups which you can join or have already joined. 
-    To join a forum group click on the green Join button, you will then find the forum (or forums) 
-    appear on the home page under the relevant category.
-    <br />To Leave a forum group click the Leave button. This will remove all forums for that group from your list 
-    unless you happen to still be a member of another forum group which grants access to the forum.
-    <br />Use the filter box above to show only those groups which you are have joined</p>
-    <p style="margin-left:20px;">Many Forums are private and their forum groups are not listed here unless you have accepted an invitation to join them.
-    To find private groups join the appropriate public Reception forum group listed here and then you should find details
-    of the associated private forums and how to join them in the reception forum</p>
+    <p style="margin-left:20px;">{{themeSettings.details_para1}}</p>
+    <p style="margin-left:20px;">{{themeSettings.details_para2}}</p>
+    <p style="margin-left:20px;">{{themeSettings.details_para3}}</p>
+    <p style="margin-left:20px;">Use the filter box above to show only those groups you have joined</p>
     </details>
     </div>
+  {{plugin-outlet name="after-groups-header" args=(hash group=model)}}
 
   {{#if model}}
     {{#conditional-loading-spinner condition=model.loading}}
