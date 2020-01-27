@@ -1,8 +1,8 @@
-box-background: 
+box_background: 
   default: 'true'
   type: 'boolean'
   description: 'read true/false in scss'
-title-string: 
-  default: 'this is **bold** and this isn't''
+title_string: 
+  default: 'this is **bold** and this is not'
   type: 'string'
   description: 'Use markdown in string'
